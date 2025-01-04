@@ -1,0 +1,12 @@
+{
+  "name": "cat-project",
+  "version": "1.0.0",
+  "description": "A simple cat project",
+  "main": "index.js",
+  "scripts": {
+    "start": "open index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xu Shihao",
+  "license": "ISC"
+}

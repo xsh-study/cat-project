@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Project</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <button id="catch-cat-btn" class="circle-btn">catch a cat</button>
+    <h1>Cat project</h1>
+    <button id="release-cats-btn" class="circle-btn">Release all cats</button>
+  </div>
+
+  <div class="content">
+    <div class="basic-info-section">
+      <h2>Basic Information</h2>
+      <div id="cat-info-list"></div>
+    </div>
+    <div class="cat-cage-section">
+      <h2>Cat Cage</h2>
+      <div id="cat-cage-list"></div>
+    </div>
+    <div class="statistics-section">
+      <h2>Variety statistics chart</h2>
+      <canvas id="breed-chart" width="400" height="200"></canvas>
+      <h2>Gender statistics chart</h2>
+      <canvas id="gender-chart" width="400" height="200"></canvas>
+      <h2>Size statistics chart</h2>
+      <canvas id="size-chart" width="400" height="200"></canvas>
+
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
